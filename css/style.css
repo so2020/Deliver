@@ -1,0 +1,81 @@
+@charset "utf-8";
+body{box-sizing:border-box;
+	width:100%;
+	}
+/* ..........................nav.......................*/
+nav{background-color:#000;}
+a{ color:#CCC;}
+a:hover{text-decoration:none;
+	color:#97b380;}
+	
+/* ..........................slider.......................*/
+	
+.carousel-inner{height:600px;} 
+
+/* ..........................sec1.......................*/
+.sec1 .row { width:100%;
+	margin-top:20px;
+	
+	border-bottom:#CCC solid thin;
+	justify-content:center;
+	text-align:center;
+	padding-top:35px;}
+
+.sec1 .row p {color:#999;
+	padding-bottom:30px}
+
+/* ..........................sec2.......................*/
+.sec2 .row {
+	width:100%;
+	
+	margin-top:40px;
+	justify-content:center;
+	text-justify:auto;
+	text-align:center;
+	align-items:center;
+	}
+.sec2 .row p {color:#999;}
+.sec2 .row img {width:100px; height:80px;}
+/* ..........................sec3.......................*/
+
+.sec3  { background-color:#efefef;
+	width:100%;
+	
+	margin-top:20px;
+	justify-content:center;
+	text-justify:auto;
+	text-align:center;
+	align-items:center;
+	}
+.sec3 .row h5 { margin-top:30px}
+.sec3 .row p {color:#999;}
+.sec3 .row img {width:300px; height:250px;}
+
+/* ..........................sec4.......................*/
+.sec4 .row { width:100%;
+
+	justify-content:center;
+	text-align:center;
+	padding-top:35px;}
+
+.sec4 .row p {color:#999;}
+.sec4 .row button {border:none;
+		 background-color:#97b380;
+		 width:120px;
+		 height:30px;
+		 color:#FFF;
+		 font-size:14px;
+		 margin-top:10px;
+		 margin-bottom:30px;
+		 font-weight:bold;}
+		 
+/* ..........................sec5.......................*/
+.sec5  { width:100%;
+	
+	color:#999;
+	padding-top:15px;
+	background-color:#343434;
+	text-align:center;
+	font-size:13px;
+	
+	}
